@@ -125,9 +125,9 @@ layers:
   - '3'
   - +
   - $$mdi:mouse-right-click-outline$$
-  - ''
+  - PgDn
   - $$mdi:arrow-down-bold$$
-  - ''
+  - PgDn
   - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - .
