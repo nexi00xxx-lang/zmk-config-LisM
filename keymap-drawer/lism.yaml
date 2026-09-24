@@ -125,7 +125,7 @@ layers:
   - '3'
   - +
   - $$mdi:mouse-right-click-outline$$
-  - PgUp
+  - PgDn
   - $$mdi:arrow-down-bold$$
   - PgDn
   - $$mdi:apple-keyboard-option$$
