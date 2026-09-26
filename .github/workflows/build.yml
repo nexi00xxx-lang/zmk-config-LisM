@@ -1,5 +1,25 @@
-targets:
-  - board: seeeduino_xiao_ble
-    shield: lizm_left
-  - board: seeeduino_xiao_ble
-    shield: lizm_right
+name: Build ZMK firmware
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    tags-ignore:
+      - 'v*' # リリース用タグはrelease.yml側でビルドするので重複を避ける
+    paths:
+      - '.github/workflows/build.yml'
+      - 'boards/**'
+      - 'config/**'
+      - 'snippets/**'
+      - 'build.yaml'
+  pull_request:
+    paths:
+      - '.github/workflows/build.yml'
+      - 'boards/**'
+      - 'config/**'
+      - 'snippets/**'
+      - 'build.yaml'
+
+jobs:
+  build:
+    # main branch @ 2026-08-06 (matches config/west.yml zmk revision)
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@268b1b1e82150460f00fd701bcd08583d5c75d29
