@@ -105,9 +105,9 @@ layers:
   - '9'
   - '='
   - F2
+  - $$mdi:keyboard-tab$$
   - HOME
   - END
-  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - '*'
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
