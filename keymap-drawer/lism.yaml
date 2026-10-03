@@ -104,10 +104,10 @@ layers:
   - '8'
   - '9'
   - '='
-  - F1
   - F2
-  - F7
-  - F10
+  - HOME
+  - END
+  - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - '*'
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
