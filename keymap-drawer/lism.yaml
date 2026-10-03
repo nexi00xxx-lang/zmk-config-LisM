@@ -105,7 +105,7 @@ layers:
   - '9'
   - '='
   - F2
-  - B
+  - $$mdi:keyboard-tab$$
   - HOME
   - END
   - $$mdi:apple-keyboard-shift$$
