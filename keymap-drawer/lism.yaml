@@ -107,7 +107,7 @@ layers:
   - F2
   - HOME
   - END
-  - AltGr+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
   - '*'
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
